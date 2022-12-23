@@ -33,6 +33,8 @@ export default function Contact() {
         
         <div>
             <Container text>
+            <h3>Please send us a message describing your issue</h3>
+            <h4>and the appropriate team member will contact you.</h4>
                 <Form>
                     <Form.Group widths='equal'>
                         <Form.Input fluid label='First Name' placeholder='First Name' onChange={handleFirstName}/>
@@ -56,7 +58,6 @@ export default function Contact() {
                     <Form.Checkbox label='I agree to the Terms of this contact form' />
                     <Form.Button>Submit</Form.Button>
                 </Form>
-                <h1>Connect with us!</h1>
             </Container>
         </div>
     )
