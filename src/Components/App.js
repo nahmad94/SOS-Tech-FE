@@ -13,6 +13,12 @@ function App() {
     <div className="App">
       <Header />
       <Home />
+      <Carousel>
+        <CarouselItem>some item here 1</CarouselItem>
+        <CarouselItem>some item here 2</CarouselItem>
+        <CarouselItem>some item here 3</CarouselItem>
+        <CarouselItem>some item here 4</CarouselItem>
+      </Carousel>
       <Project />
       <Contact />
       <Footer />
