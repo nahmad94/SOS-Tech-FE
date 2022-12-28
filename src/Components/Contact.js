@@ -27,15 +27,25 @@ export default function Contact() {
         e.preventDefault();
         setDescription(e.target.value)
     }
-    console.log(description)
+    function handleSubmit(e) {
+        e.preventDefault()
+        setfirstName('')
+        setlastName('')
+        setCompany('')
+        setEmail('')
+        setDescription('')
+    }
+    // console.log(description)
     // console.log(email)
     return (
         
         <div>
             <Container text>
-            <h3>Please send us a message describing your issue</h3>
-            <h4>and the appropriate team member will contact you.</h4>
-                <Form>
+                <div>
+                    <h3>Please send us a message describing your issue</h3>
+                    <h4>and the appropriate team member will contact you.</h4>
+                </div>
+                <Form onSubmit={handleSubmit}>
                     <Form.Group widths='equal'>
                         <Form.Input fluid label='First Name' placeholder='First Name' onChange={handleFirstName}/>
                         <Form.Input fluid label='Last Name' placeholder='Last Name' onChange={handleLastName}/>
@@ -56,7 +66,7 @@ export default function Contact() {
                     />
                     <Form.TextArea label='Description' placeholder='Tell us a little bit about your issue' onChange={handleDescription}/>
                     <Form.Checkbox label='I agree to the Terms of this contact form' />
-                    <Form.Button>Submit</Form.Button>
+                    <Form.Button content='Sumbit' />
                 </Form>
             </Container>
         </div>
