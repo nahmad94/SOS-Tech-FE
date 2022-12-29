@@ -12,3 +12,8 @@
     align-items: center;
     color: red;
 }
+
+.signal > button.active {
+    background-color: red;
+    color: green; 
+}
