@@ -20,8 +20,15 @@ const Carousel = ({children}) => {
                 })}
             </div>
             <div className='signal'>
-                <button onClick={() => {updateIndex(activeIndex - 1)}}>Previous</button>
-                <button onClick={() => {updateIndex(activeIndex + 1)}}>Next</button>
+                {/* <button onClick={() => {updateIndex(activeIndex - 1)}}>Previous</button> */}
+                {React.Children.map(children, (child, index) => {
+                    return(
+                        <button onClick={() => {updateIndex(index)}}>
+                            {index + 1}
+                        </button>
+                    )
+                })}
+                {/* <button onClick={() => {updateIndex(activeIndex + 1)}}>Next</button> */}
             </div>
         </div>
     )
