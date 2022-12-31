@@ -5,6 +5,7 @@ import Home from './Home'
 import Contact from './Contact';
 import Project from './Project';
 import Footer from './Footer';
+import About from './About';
 import Carousel from './Carousel/Carousel';
 import CarouselItem from './Carousel/CarouselItem';
 
@@ -13,6 +14,7 @@ function App() {
     <div className="App">
       <Header />
       <Home />
+      <About />
       <Carousel>
         <CarouselItem>some item here 1</CarouselItem>
         <CarouselItem>some item here 2</CarouselItem>
