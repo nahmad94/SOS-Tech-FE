@@ -16,10 +16,11 @@ function App() {
       <Home />
       <About />
       <Carousel>
-        <CarouselItem>some item here 1</CarouselItem>
-        <CarouselItem>some item here 2</CarouselItem>
-        <CarouselItem>some item here 3</CarouselItem>
-        <CarouselItem>some item here 4</CarouselItem>
+        <CarouselItem>Website Design</CarouselItem>
+        <CarouselItem>Custom solutions</CarouselItem>
+        <CarouselItem>Product Management Systems</CarouselItem>
+        <CarouselItem>Integration Services</CarouselItem>
+        <CarouselItem>IT Help Desk</CarouselItem>
       </Carousel>
       <Project />
       <Contact />
