@@ -16,7 +16,10 @@ function App() {
       <Home />
       <About />
       <Carousel>
-        <CarouselItem>Website Design</CarouselItem>
+        <CarouselItem>
+          <h1>Website Design</h1>
+          <a href='www.google.com'>Google</a>
+        </CarouselItem>
         <CarouselItem>Custom solutions</CarouselItem>
         <CarouselItem>Product Management Systems</CarouselItem>
         <CarouselItem>Integration Services</CarouselItem>
