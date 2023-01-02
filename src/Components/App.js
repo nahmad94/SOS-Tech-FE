@@ -17,8 +17,9 @@ function App() {
       <About />
       <Carousel>
         <CarouselItem>
+          <div style={{backgroundImage: 'url(/img/Web-Development.jpeg', backgroundRepeat: 'no-repeat', backgroundSize:'500px', height:'500px', width:'500px'}}>
           <h1>Website Design</h1>
-          <a href='www.google.com'>Google</a>
+          </div>
         </CarouselItem>
         <CarouselItem>Custom solutions</CarouselItem>
         <CarouselItem>Product Management Systems</CarouselItem>
