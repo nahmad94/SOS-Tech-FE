@@ -34,9 +34,8 @@ export default function Contact() {
         setCompany('')
         setEmail('')
         setDescription('')
+        alert('Contact form submitted, a team member will reach out to you shortly.')
     }
-    // console.log(description)
-    // console.log(email)
     return (
         
         <div className='contact-container'>
