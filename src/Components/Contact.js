@@ -56,15 +56,16 @@ export default function Contact() {
                     <Form.Field
                         id='form-input-control-error-email'
                         control={Input}
-                        label='Email'
-                        placeholder='joe@schmoe.com'
-                        error={{
-                            content: 'Please enter a valid email address',
-                            pointing: 'below',
-                        }}
+                        fluid label='Email'
+                        placeholder='email@email.com'
+                        // error={{
+                        //     content: 'Please enter a valid email address',
+                        //     pointing: 'below',
+                        // }}
                         onChange={handleEmail}
                     />
-                    <Form.TextArea label='Description' placeholder='Tell us a little bit about your issue' onChange={handleDescription}/>
+                    <Form.TextArea label='Description' rows='6' placeholder='Tell us a little bit about your issue' onChange={handleDescription}/>
+                    {/* <input ref='fileInput' type='file' /> */}
                     <Form.Checkbox label='I agree to the Terms of this contact form' />
                     <Form.Button content='Sumbit' />
                 </Form>
