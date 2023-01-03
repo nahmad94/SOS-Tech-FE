@@ -5,6 +5,7 @@
 .inner {
     white-space: nowrap;
     transition: transform 0.3s;
+    align-content: center;
 }
 
 .item {

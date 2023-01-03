@@ -15,10 +15,11 @@ function App() {
       <Header />
       <Home />
       <About />
-      <Carousel>
-        <CarouselItem>
-          <div style={{backgroundImage: 'url(/img/Web-Development.jpeg', backgroundRepeat: 'no-repeat', backgroundSize:'500px', height:'500px', width:'500px'}}>
+      <Carousel className='carousel'>
+        <CarouselItem className='carousel'>
+          <div style={{backgroundImage: 'url(/img/Web-Development.jpeg', backgroundRepeat: 'no-repeat', backgroundSize:'contains', height:'70vh', width:'100vh', alignContent: 'center' }}>
           <h1>Website Design</h1>
+          <p>Web design and </p>
           </div>
         </CarouselItem>
         <CarouselItem>Custom solutions</CarouselItem>
