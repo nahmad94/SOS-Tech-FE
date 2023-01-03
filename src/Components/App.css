@@ -44,3 +44,14 @@
   align-self: center;
   margin: auto;
 }
+
+.nav {
+  margin: 0px;
+  background-color: grey;
+  color: black;
+}
+
+.nav-link {
+  color: black;
+  padding: 5px;
+}

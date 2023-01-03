@@ -3,12 +3,12 @@ import React from 'react'
 export default function Header() {
   return (
     <div>
-      <nav>
+      <nav className='nav'>
         <h1>S.O.S Technologies</h1>
-        <a>About Us</a>
-        <a>Projects</a>
-        <a>Contact</a>
-        <a>Careers</a>
+        <a className='nav-link'>About Us</a>
+        <a className='nav-link'>Projects</a>
+        <a className='nav-link'>Contact</a>
+        <a className='nav-link'>Careers</a>
       </nav>
     </div>
   )
