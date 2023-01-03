@@ -56,3 +56,17 @@
   color: black;
   padding: 5px;
 }
+
+.contact-container {
+  height: auto;
+  width: auto;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: grey;
+}
+
+.contact-greet {
+  padding: 20px;
+}

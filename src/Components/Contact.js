@@ -39,11 +39,12 @@ export default function Contact() {
     // console.log(email)
     return (
         
-        <div>
+        <div className='contact-container'>
             <Container text>
-                <div>
-                    <h3>Please send us a message describing your issue</h3>
-                    <h4>and the appropriate team member will contact you.</h4>
+                <div className='contact-greet'>
+                    <h3>Please send us a message describing your issue <br />
+                    and the appropriate team member will contact you.</h3>
+                    
                 </div>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group widths='equal'>
