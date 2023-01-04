@@ -33,12 +33,18 @@ export default function Contact() {
     }
     function handleSubmit(e) {
         e.preventDefault()
-        setfirstName('')
-        setlastName('')
-        setCompany('')
-        setEmail('')
-        setDescription('')
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
+         .then((res) => {
+            console.log(res.text)
+            e.target.reset()
+         })
+        // setfirstName('')
+        // setlastName('')
+        // setCompany('')
+        // setEmail('')
+        // setDescription('')
         alert('Contact form submitted, a team member will reach out to you shortly.')
+        
     }
     return (
         
@@ -51,27 +57,28 @@ export default function Contact() {
                 </div>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group widths='equal'>
-                        <Form.Input fluid label='First Name' placeholder='First Name' name onChange={handleFirstName}/>
-                        <Form.Input fluid label='Last Name' placeholder='Last Name' onChange={handleLastName}/>
+                        <Form.Input fluid label='First Name' placeholder='First Name' name='first_name' onChange={handleFirstName}/>
+                        <Form.Input fluid label='Last Name' placeholder='Last Name' name='last_name' onChange={handleLastName}/>
                     </Form.Group>
                     <Form.Group widths='equal'>
-                        <Form.Input fluid label='Company Name' placeholder='Company Name' onChange={handleCompany}/>
+                        <Form.Input fluid label='Company Name' placeholder='Company Name' name='company_name' onChange={handleCompany}/>
                     </Form.Group>
                     <Form.Field
                         id='form-input-control-error-email'
                         control={Input}
                         fluid label='Email'
                         placeholder='email@email.com'
+                        name='email'
                         // error={{
                         //     content: 'Please enter a valid email address',
                         //     pointing: 'below',
                         // }}
                         onChange={handleEmail}
                     />
-                    <Form.TextArea label='Description' rows='6' placeholder='Tell us a little bit about your issue' onChange={handleDescription}/>
+                    <Form.TextArea label='Description' rows='6' name='description' placeholder='Tell us a little bit about your issue' onChange={handleDescription}/>
                     {/* <input ref='fileInput' type='file' /> */}
                     <Form.Checkbox label='I agree to the Terms of this contact form' />
-                    <Form.Button content='Sumbit' />
+                    <Form.Button onSubmit={handleSubmit} content='Sumbit' />
                 </Form>
             </Container>
         </div>
