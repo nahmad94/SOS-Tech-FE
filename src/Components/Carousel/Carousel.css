@@ -10,6 +10,7 @@
 
 .item {
     display: inline-flex;
+    word-wrap: normal;
     align-items: center;
     color: red;
 }
