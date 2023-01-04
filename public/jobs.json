@@ -1,0 +1,14 @@
+{
+    "frontend" : {
+        "position": "Front End Developer",
+        "description": "experience with front end langs"
+    }, 
+    "backend": {
+        "position": "Back End Developer", 
+        "description": "Experience with back end langs"
+    }, 
+    "fullstack": {
+        "position": "Full Stack Develo[per",
+        "description": "Experience designing full stack applicaitons"
+    }
+}
