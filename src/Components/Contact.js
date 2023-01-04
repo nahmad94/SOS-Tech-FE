@@ -1,7 +1,11 @@
 import React, {useState} from 'react'
+import emailjs from 'emailjs-com'
 import { Form, Container, Input } from 'semantic-ui-react'
 
 export default function Contact() {
+    const SERVICE_ID = 'gmail';
+    const TEMPLATE_ID = 'contact_form';
+    const USER_ID = 'ulvl6LJHWKdeop1uh';
     const [firstName, setfirstName] = useState('')
     const [lastName, setlastName] = useState('')
     const [company, setCompany] = useState('')
@@ -47,7 +51,7 @@ export default function Contact() {
                 </div>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group widths='equal'>
-                        <Form.Input fluid label='First Name' placeholder='First Name' onChange={handleFirstName}/>
+                        <Form.Input fluid label='First Name' placeholder='First Name' name onChange={handleFirstName}/>
                         <Form.Input fluid label='Last Name' placeholder='Last Name' onChange={handleLastName}/>
                     </Form.Group>
                     <Form.Group widths='equal'>
