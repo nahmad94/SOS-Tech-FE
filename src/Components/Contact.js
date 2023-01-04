@@ -36,15 +36,12 @@ export default function Contact() {
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
          .then((res) => {
             console.log(res.text)
+            alert('Contact form submitted, a team member will reach out to you shortly.')
             e.target.reset()
+         }, (err) => {
+            console.log(err)
+            alert('Sorry, your contact information was not sent. Please refresh the page and try again.')
          })
-        // setfirstName('')
-        // setlastName('')
-        // setCompany('')
-        // setEmail('')
-        // setDescription('')
-        alert('Contact form submitted, a team member will reach out to you shortly.')
-        
     }
     return (
         
