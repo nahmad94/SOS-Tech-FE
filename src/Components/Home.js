@@ -3,7 +3,7 @@ import React from 'react'
 export default function Home() {
 
   return (
-    <div>
+    <div className='welcome'>
         <h1>Welcome to S.O.S Technologies!</h1>
         <img></img>
         <div>We're a team of passionate technologists dedicated to helping businesses solve their toughest tech challenges. Whether you need a new website, a custom software solution, or expert IT support, we've got you covered.</div>
