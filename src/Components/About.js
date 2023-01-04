@@ -3,7 +3,7 @@ import React from 'react'
 export default function About() {
   return (
     <div>
-        <p>At S.O.S Technologies, our mission is to help our clients enhance growth and save time through cretive web design services as well as custom software and hardware solutions to efficiently optimize workflows. With our client-focused model, we work with our customers to ensure the best experience for our customers while consistently exceeding there expectations. </p>
+        <p>Our mission is to provide innovative, reliable, and affordable tech services to small and medium-sized businesses. We strive to exceed our customers' expectations by delivering excellent customer service, using cutting-edge technology, and continuously improving our processes. We are committed to building long-term relationships with our customers and to being a trusted partner in their success </p>
     </div>
   )
 }
