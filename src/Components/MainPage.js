@@ -8,7 +8,7 @@ import {HashLink} from 'react-router-hash-link'
 export default function MainPage() {
     return (
         <div>
-            <nav>
+            {/* <nav>
                 <HashLink smooth to='/#home'>
                     Home
                 </HashLink>
@@ -21,7 +21,7 @@ export default function MainPage() {
                 <HashLink smooth to='/#contact'>
                     Contact 
                 </HashLink>
-            </nav>
+            </nav> */}
             <section id="home">
                 <Home/>
             </section>
