@@ -59,7 +59,7 @@
 }
 
 .welcome-closing {
-  padding: 10px;
+  padding-bottom: 10px;
 }
 
 .carousel {
@@ -75,7 +75,7 @@
   width: 46vw;
   display: inline-flex;
   flex-direction: column;
-  background-color: grey;
+  background-color: lightgrey;
   border: 1px solid black;
   text-align: center;
 }
@@ -129,7 +129,7 @@
   margin-right: auto;
   margin-bottom: auto;
   padding: 10px;
-  background-color: grey;
+  background-color: lightgrey;
   margin: 5px;
   margin-bottom: 20px;
 }
