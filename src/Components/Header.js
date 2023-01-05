@@ -6,10 +6,10 @@ export default function Header() {
   return (
     <div>
       <nav className='nav'>
-              
-
         <div>
           <img src={logo} className='logo'/>
+        </div>
+        <div>
           <h1 className='name'>S.O.S Technologies</h1>
         </div>
         <HashLink smooth to='/#home' className='nav-link'>

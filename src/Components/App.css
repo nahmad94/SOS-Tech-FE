@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;800&display=swap');
+
 .App {
   text-align: center;
   word-wrap: break-word;
@@ -43,6 +45,12 @@
   margin: 20px;
   padding: 5px;
   border: solid 1px black;
+  height: 50vh;
+}
+
+.home-logo {
+  width: 20vw;
+  height: 20vh;
 }
 
 .carousel {
@@ -55,15 +63,32 @@
 
 .services {
   word-wrap: break-word;
-  width: 80vw;
-  display: flex;
+  width: 49vw;
+  display: inline-flex;
   flex-direction: column;
+  background-color: grey;
+  border: 1px solid black;
+  text-align: center;
 }
 
 .service-blurb {
-  width: 150px;
-  height: 250px;
+  width: 49vw;
+  height: auto;
   word-wrap: break-word;
+  text-align: center;
+}
+
+.service-pic {
+  width: 49vw;
+  height: auto;
+  display: inline-flex;
+  float: left;
+}
+
+.service-container {
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
 }
 
 .nav {
@@ -71,6 +96,8 @@
   background-color: grey;
   color: black;
   padding: 10px;
+  height: 12vh;
+  position: sticky;
 }
 
 .nav-link {
@@ -93,12 +120,17 @@
 }
 
 .logo {
-  display: inline-block;
-  height: 50px;
-  width: 50px;
+  display: inline-flex;
+  float: left;
+  position: relative;
+  height: 10vh;
+  width: auto;
 }
 
 .name {
-  display: inline-block;
+  font-family: 'Inconsolata';
+  font-weight: bold;
+
+  display: inline-flex;
   padding: 5px;
 }
