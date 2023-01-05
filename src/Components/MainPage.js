@@ -11,12 +11,12 @@ export default function MainPage() {
             <section id="home">
                 <Home/>
             </section>
-            <section id="about">
-                <About id="about"/>
-            </section>
             <section id='projects'>
                 <Project id="projects"/>
             </section> 
+            <section id="about">
+                <About id="about"/>
+            </section>
             <section id='contact'>
                 <Contact id="contact"/>
             </section>

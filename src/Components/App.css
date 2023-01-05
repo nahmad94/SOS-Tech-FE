@@ -45,12 +45,21 @@
   margin: 20px;
   padding: 5px;
   border: solid 1px black;
-  height: 50vh;
+  height: auto;
 }
 
 .home-logo {
-  width: 20vw;
-  height: 20vh;
+  width: 35vw;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.welcome-blurb {
+  padding: 5px;
+}
+
+.welcome-closing {
+  padding: 10px;
 }
 
 .carousel {
@@ -63,7 +72,7 @@
 
 .services {
   word-wrap: break-word;
-  width: 49vw;
+  width: 46vw;
   display: inline-flex;
   flex-direction: column;
   background-color: grey;
@@ -72,23 +81,31 @@
 }
 
 .service-blurb {
-  width: 49vw;
+  width: 46vw;
   height: auto;
   word-wrap: break-word;
   text-align: center;
 }
 
 .service-pic {
-  width: 49vw;
+  width: 46vw;
   height: auto;
   display: inline-flex;
   float: left;
 }
 
-.service-container {
+.img-container {
   align-items: center;
   justify-content: center;
   margin: 5px;
+}
+
+.service-container {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav {
@@ -113,6 +130,8 @@
   margin-bottom: auto;
   padding: 10px;
   background-color: grey;
+  margin: 5px;
+  margin-bottom: 20px;
 }
 
 .contact-greet {
