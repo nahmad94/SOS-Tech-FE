@@ -55,6 +55,15 @@
 
 .services {
   word-wrap: break-word;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.service-blurb {
+  width: 150px;
+  height: 250px;
+  word-wrap: break-word;
 }
 
 .nav {

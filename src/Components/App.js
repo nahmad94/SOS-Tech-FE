@@ -8,18 +8,28 @@ import Footer from './Footer';
 import About from './About';
 import Careers from './Careers/Careers';
 import JobPost from './Careers/JobPost';
+import { Route, Routes, Link, HashRouter } from 'react-router-dom';
+import MainPage from './MainPage';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <About />
-      <Project />
-      <Contact />
-      <Footer />
-      {/* <Careers /> */}
-      <JobPost />
+      <nav>
+        {/* <Link to='/'> */}
+          <Header />
+        {/* </Link> */}
+      </nav>
+      {/* <Routes> */}
+        {/* <Route path='/' element={ <Header />} /> */}
+        {/* <Route path='/' element={ <Home />} />
+        <Route path='/about' element={ <About />} />
+        <Route path='/project' element={ <Project />} />
+        <Route path='/contact' element={ <Contact />} />
+        <Route path='/careers' element={ <Careers />} />
+        <Route path='/careers:id' element={ <JobPost />} />
+      </Routes> */}
+      <MainPage />
+      <Footer /> 
     </div>
   );
 }
