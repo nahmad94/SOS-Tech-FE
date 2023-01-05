@@ -6,30 +6,30 @@ import Contact from './Contact';
 import Project from './Project';
 import Footer from './Footer';
 import About from './About';
-import Carousel from './Carousel/Carousel';
-import CarouselItem from './Carousel/CarouselItem';
+import Careers from './Careers/Careers';
+import JobPost from './Careers/JobPost';
+import { Route, Routes, Link, HashRouter } from 'react-router-dom';
+import MainPage from './MainPage';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Home />
-      <About />
-      <Carousel className='carousel'>
-        <CarouselItem className='carousel'>
-          <div style={{backgroundImage: 'url(/img/Web-Development.jpeg', backgroundRepeat: 'no-repeat', backgroundSize:'contains', height:'70vh', width:'100vh', alignContent: 'center' }}>
-          <h1>Website Design</h1>
-          <p>Web design and </p>
-          </div>
-        </CarouselItem>
-        <CarouselItem>Custom solutions</CarouselItem>
-        <CarouselItem>Product Management Systems</CarouselItem>
-        <CarouselItem>Integration Services</CarouselItem>
-        <CarouselItem>IT Help Desk</CarouselItem>
-      </Carousel>
-      <Project />
-      <Contact />
-      <Footer />
+      <nav>
+        {/* <Link to='/'> */}
+          <Header />
+        {/* </Link> */}
+      </nav>
+      {/* <Routes> */}
+        {/* <Route path='/' element={ <Header />} /> */}
+        {/* <Route path='/' element={ <Home />} />
+        <Route path='/about' element={ <About />} />
+        <Route path='/project' element={ <Project />} />
+        <Route path='/contact' element={ <Contact />} />
+        <Route path='/careers' element={ <Careers />} />
+        <Route path='/careers:id' element={ <JobPost />} />
+      </Routes> */}
+      <MainPage />
+      <Footer /> 
     </div>
   );
 }

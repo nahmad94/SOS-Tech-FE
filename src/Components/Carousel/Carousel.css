@@ -10,8 +10,12 @@
 
 .item {
     display: inline-flex;
+    word-wrap: normal;
     align-items: center;
     color: red;
+    width: 100px;
+    height: 200px;
+    
 }
 
 .signal > button.active {

@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;800&display=swap');
+
 .App {
   text-align: center;
+  word-wrap: break-word;
 }
 
 .App-logo {
@@ -37,6 +40,28 @@
   }
 }
 
+.welcome {
+  background-color: lightgrey;
+  margin: 20px;
+  padding: 5px;
+  border: solid 1px black;
+  height: auto;
+}
+
+.home-logo {
+  width: 35vw;
+  height: auto;
+  margin-bottom: 5px;
+}
+
+.welcome-blurb {
+  padding: 5px;
+}
+
+.welcome-closing {
+  padding-bottom: 10px;
+}
+
 .carousel {
   align-content: center;
   text-align: center;
@@ -45,11 +70,51 @@
   margin: auto;
 }
 
+.services {
+  word-wrap: break-word;
+  width: 46vw;
+  display: inline-flex;
+  flex-direction: column;
+  background-color: lightgrey;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.service-blurb {
+  width: 46vw;
+  height: auto;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.service-pic {
+  width: 46vw;
+  height: auto;
+  display: inline-flex;
+  float: left;
+}
+
+.img-container {
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+}
+
+.service-container {
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  align-items: center;
+  justify-content: center;
+}
+
 .nav {
   margin: 0px;
   background-color: grey;
   color: black;
   padding: 10px;
+  height: 12vh;
+  position: sticky;
 }
 
 .nav-link {
@@ -60,13 +125,31 @@
 .contact-container {
   height: auto;
   width: auto;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
   padding: 10px;
-  background-color: grey;
+  background-color: lightgrey;
+  margin: 5px;
+  margin-bottom: 20px;
 }
 
 .contact-greet {
   padding: 20px;
+}
+
+.logo {
+  display: inline-flex;
+  float: left;
+  position: relative;
+  height: 10vh;
+  width: auto;
+}
+
+.name {
+  font-family: 'Inconsolata';
+  font-weight: bold;
+
+  display: inline-flex;
+  padding: 5px;
 }
