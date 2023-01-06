@@ -1,70 +1,50 @@
-# Getting Started with Create React App
+# Project Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A website for SOS Technologies, a start up company dedicated to helping our customers save time and money by automating everyday tasks and creating personalized software tailored to your needs! 
 
-## Available Scripts
+## Project Description
 
-In the project directory, you can run:
+This app utilizes ReactJS along with Semantic UI and EmailJS to act as a full stack application for a tech startup in the tech service industry. 
 
-### `npm start`
+## Project Links
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[Deployed Site](https://sos-tech.vercel.app/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Wireframes & Component Hierarchy
 
-### `npm test`
+[Wireframe](https://photos.app.goo.gl/pofYeJG8WM3Gj2s39)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## MVP 
 
-### `npm run build`
+AAU, I want to see what SOS Technologies does
+AAU, I want to be able to contact the company about possible work
+AAU, I want to see possible job openings
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Post-MVP
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+AAU, I want to be able to send in my resume (stretch)
+AAU, I want to be able to upload sample files from a project to send with my contact request (Stretch)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Components
 
-### `npm run eject`
+| Component | Description | 
+| --- | :---: |  
+| App | Main app component | 
+| Header | This will render the header | 
+| Footer | This will render the footer | 
+| Home | Welcome Page | 
+| Project | creates showcase of projects | 
+| About | About page | 
+| Contact | Contact form and submission handler | 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Additional Libraries
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project utilizes a hash link react router to properly scroll to page segments.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Issues and Resolutions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+I had trouble with content overflow on the carousel component initially created to house Projects. Due to time constraints, ended up taking the carousel out and replaced with static gallery. 
 
-## Learn More
+Project 4 for General Assembly. 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
