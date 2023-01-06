@@ -1,6 +1,6 @@
 # Project Overview
 
-A website for SOS Technologies, a start up company dedicated to helping our customers save time and money by automating everyday tasks and creating personalized software tailored to your needs! 
+A webapp for S.O.S Technologies, a start up company dedicated to helping our customers save time and money by automating everyday tasks and creating personalized software tailored to your needs! 
 
 ## Project Description
 
@@ -39,7 +39,7 @@ AAU, I want to be able to upload sample files from a project to send with my con
 
 ## Additional Libraries
 
-This project utilizes a hash link react router to properly scroll to page segments.  
+This project utilizes the hash link react router to properly scroll to page segments.  
 
 ## Issues and Resolutions
 
