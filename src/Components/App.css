@@ -50,7 +50,7 @@
   flex-direction: row wrap; */
   margin: 5px;
   padding-top: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 50px;
   border: solid 1px black;
   height: auto;
   width: 98vw;
@@ -165,7 +165,8 @@
   padding: 10px;
   background-color: lightblue;
   margin: 5px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+  border: solid 1px black;
 }
 
 .contact-greet {
