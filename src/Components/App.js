@@ -14,20 +14,7 @@ import MainPage from './MainPage';
 function App() {
   return (
     <div className="App">
-      <nav>
-        {/* <Link to='/'> */}
-          <Header />
-        {/* </Link> */}
-      </nav>
-      {/* <Routes> */}
-        {/* <Route path='/' element={ <Header />} /> */}
-        {/* <Route path='/' element={ <Home />} />
-        <Route path='/about' element={ <About />} />
-        <Route path='/project' element={ <Project />} />
-        <Route path='/contact' element={ <Contact />} />
-        <Route path='/careers' element={ <Careers />} />
-        <Route path='/careers:id' element={ <JobPost />} />
-      </Routes> */}
+      <Header />
       <MainPage />
       <Footer /> 
     </div>

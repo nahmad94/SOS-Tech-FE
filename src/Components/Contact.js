@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 import emailjs from 'emailjs-com'
 import { Form, Container, Input } from 'semantic-ui-react'
 
@@ -6,31 +6,6 @@ export default function Contact() {
     const SERVICE_ID = 'gmail';
     const TEMPLATE_ID = 'contact_form';
     const USER_ID = 'ulvl6LJHWKdeop1uh';
-    // const [firstName, setfirstName] = useState('')
-    // const [lastName, setlastName] = useState('')
-    // const [company, setCompany] = useState('')
-    // const [email, setEmail] = useState('')
-    // const [description, setDescription] = useState('')
-    // function handleFirstName(e) {
-    //     e.preventDefault();
-    //     setfirstName(e.target.value)
-    // }
-    // function handleLastName(e) {
-    //     e.preventDefault();
-    //     setlastName(e.target.value)
-    // }
-    // function handleCompany(e) {
-    //     e.preventDefault();
-    //     setCompany(e.target.value)
-    // }
-    // function handleEmail(e) {
-    //     e.preventDefault();
-    //     setEmail(e.target.value)
-    // }
-    // function handleDescription(e) {
-    //     e.preventDefault();
-    //     setDescription(e.target.value)
-    // }
     function handleSubmit(e) {
         e.preventDefault()
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, e.target, USER_ID)
@@ -64,14 +39,8 @@ export default function Contact() {
                         fluid label='Email'
                         placeholder='email@email.com'
                         name='email'
-                        // error={{
-                        //     content: 'Please enter a valid email address',
-                        //     pointing: 'below',
-                        // }}
                     />
-                    <Form.TextArea label='Description' rows='6' name='description' placeholder='Tell us a little bit about your issue'/>
-                    {/* <input ref='fileInput' type='file' /> */}
-                    {/* <Form.Checkbox label='I agree to the Terms of this contact form' /> */}
+                    <Form.TextArea label='Description' rows='6' name='description' placeholder='Tell us a little bit about your challenge'/>
                     <Form.Button onSubmit={handleSubmit} content='Sumbit' />
                 </Form>
             </Container>
