@@ -12,7 +12,6 @@ export default function Home() {
         <div className='welcome-blurb'>Thank you for choosing SOS Tech. We look forward to working with you and being a trusted partner in your success.</div>
         <div className='welcome-blurb'>Sincerely,</div>
         <div className='welcome-closing'>The S.O.S Tech Team</div>
-        {/* <img src={logo} className='home-logo'></img> */}
     </div>
   )
 }

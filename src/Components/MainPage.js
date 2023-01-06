@@ -3,7 +3,6 @@ import About from './About'
 import Home from './Home'
 import Project from './Project'
 import Contact from './Contact'
-import {HashLink} from 'react-router-hash-link'
 
 export default function MainPage() {
     return (
