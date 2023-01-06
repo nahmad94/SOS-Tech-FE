@@ -1,7 +1,9 @@
 import React from 'react'
 import webDevPic from '../imgs/Web-Development.jpeg'
-import Carousel from './Carousel/Carousel';
-import CarouselItem from './Carousel/CarouselItem';
+import solutions from '../imgs/custom-web-design-services.jpeg'
+import pms from '../imgs/PMS.jpeg'
+import integration from '../imgs/integration.png'
+import helpDesk from '../imgs/HelpDesk.jpeg'
 
 export default function Project() {
   return (
@@ -17,7 +19,7 @@ export default function Project() {
         </div>
         <div className='service-container'>
             <div className='img-container'>
-                <img src={webDevPic} className='service-pic'/>
+                <img src={solutions} className='service-pic'/>
             </div>
             <div className='services'>
                 <h1>Custom solutions</h1>
@@ -26,7 +28,7 @@ export default function Project() {
         </div>
         <div className='service-container'>
             <div className='img-container'>
-                <img src={webDevPic} className='service-pic'/>
+                <img src={pms} className='service-pic'/>
             </div>
             <div className='services'>
                 <h1>Product Management Systems</h1>
@@ -35,7 +37,7 @@ export default function Project() {
         </div>
         <div className='service-container'>
             <div className='img-container'>
-                <img src={webDevPic} className='service-pic'/>
+                <img src={integration} className='service-pic'/>
             </div>
             <div className='services'>
                 <h1>Integration Services</h1>
@@ -44,7 +46,7 @@ export default function Project() {
         </div>
         <div className='service-container'>
             <div className='img-container'>
-                <img src={webDevPic} className='service-pic'/>
+                <img src={helpDesk} className='service-pic'/>
             </div>
             <div className='services'>
                 <h1>IT Help Desk</h1>

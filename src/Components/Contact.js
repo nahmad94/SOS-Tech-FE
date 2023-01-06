@@ -40,7 +40,7 @@ export default function Contact() {
                         placeholder='email@email.com'
                         name='email'
                     />
-                    <Form.TextArea label='Description' rows='6' name='description' placeholder='Tell us a little bit about your issue'/>
+                    <Form.TextArea label='Description' rows='6' name='description' placeholder='Tell us a little bit about your challenge'/>
                     <Form.Button onSubmit={handleSubmit} content='Sumbit' />
                 </Form>
             </Container>
