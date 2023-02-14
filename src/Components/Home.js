@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className='welcome'>
         <h1 className='welcome-head'>Welcome to <span className='name'>S.O.S Technologies</span></h1>
-        {/* <div> */}
+        <div>
           <img src={logo} className='home-logo' />
           <div className='welcome-message'>
             <div className='welcome-blurb'>We're a team of passionate technologists dedicated to helping businesses solve their toughest tech challenges. Whether you need a new website, a custom software solution, or expert IT support, we've got you covered.</div>
@@ -15,7 +15,7 @@ export default function Home() {
             <div className='welcome-blurb'>Sincerely,</div>
             <div className='welcome-closing'>The S.O.S Tech Team</div>
           </div>
-        {/* </div> */}
+        </div>
     </div>
   )
 }
